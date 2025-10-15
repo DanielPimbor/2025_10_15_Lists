@@ -6,7 +6,7 @@ a lista tartalmát írja ki a képernyőre! A felhasználónak legyen lehetősé
 
 import random
 
-szamok = [random.randint(1,3) for _ in range(10)]
+szamok = [random.randint(1,3) for i in range(10)]
 print(szamok)
 
 ujszam = int(input('Adj meg egy számot [1;3] intervallumon.'))
