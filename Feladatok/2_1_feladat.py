@@ -11,7 +11,6 @@ print(szamok)
 
 ujszam = int(input('Adj meg egy számot [1;3] intervallumon.'))
 
-
 if ujszam in szamok:
     for i in range(szamok.count(ujszam)):
         szamok.remove(ujszam)
